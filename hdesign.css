@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+/* HERO AREA */
+.hero {
+    height: 100vh;
+    padding: 30px;
+}
+
+/* THE IMAGE */
+.hero-image {
+    height: 70vh;
+    width: 100%;
+
+    position: sticky;
+    top: 30px;
+
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+/* IMAGE ITSELF */
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* OPTIONAL TEXT ON IMAGE */
+.hero-text {
+    position: absolute;
+
+    left: 50px;
+    bottom: 50px;
+
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+}
+
+/* MAIN WEBSITE */
+.content {
+    position: relative;
+
+    background: white;
+
+    min-height: 100vh;
+
+    padding: 100px 8%;
+
+    border-radius: 40px 40px 0 0;
+
+    z-index: 2;
+}
